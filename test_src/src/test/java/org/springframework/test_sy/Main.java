@@ -29,6 +29,12 @@ public class Main {
             return;
         }
 
+        // 入力が空の場合のチェック
+        if (numberList.isEmpty()) {
+            System.err.println("No numbers were entered. Cannot calculate the average.");
+            return;
+        }
+
         // 入力された数値を配列に変換
         int[] numbers = numberList.stream().mapToInt(i -> i).toArray();
 

@@ -10,7 +10,7 @@ public class CalculationTest {
      */
     public static double calculateAverage(int[] numbers) {
         if (numbers == null || numbers.length == 0) {
-            throw new IllegalArgumentException("配列が空です。");
+            throw new IllegalArgumentException("The array is empty. Cannot calculate average.");
         }
         int sum = 0;
         for (int number : numbers) {
