@@ -1,0 +1,34 @@
+# Spring PetClinic用のGitLab CI/CD設定
+
+# openjdk:17イメージを使用
+image: openjdk:17
+
+# mainブランチへのマージのみをトリガーとする
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+# ステージの定義
+stages:
+  - build
+  - test
+
+# ビルドジョブ
+build:
+  stage: build
+  script:
+    - echo "Spring PetClinicのビルドを開始します"
+    - chmod +x mvnw
+    - ./mvnw clean package -DskipTests
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+# テストジョブ
+test:
+  stage: test
+  script:
+    - echo "Spring PetClinicのテストを開始します"
+    - chmod +x mvnw
+    - ./mvnw test
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"

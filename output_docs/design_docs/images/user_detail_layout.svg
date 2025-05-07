@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景と枠 -->
+  <rect x="10" y="10" width="680" height="580" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- ヘッダー部分 -->
+  <rect x="10" y="10" width="680" height="60" fill="#e9ecef" stroke="#dee2e6" stroke-width="1" rx="5" ry="5"/>
+  <text x="50" y="45" font-family="Arial" font-size="22" font-weight="bold" fill="#212529">Webアプリケーション</text>
+  
+  <!-- ユーザー情報部分 -->
+  <text x="550" y="35" font-family="Arial" font-size="14" text-anchor="end" fill="#6c757d">ユーザー: 管理者</text>
+  <text x="550" y="55" font-family="Arial" font-size="12" text-anchor="end" fill="#6c757d">最終ログイン: 2025/04/26 15:30</text>
+  
+  <!-- ログアウトボタン -->
+  <rect x="580" y="25" width="100" height="30" fill="#6c757d" stroke="none" rx="3" ry="3"/>
+  <text x="630" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="white">ログアウト</text>
+  
+  <!-- メインコンテンツエリア -->
+  <rect x="20" y="80" width="660" height="510" fill="white" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- コンテンツタイトル -->
+  <text x="40" y="110" font-family="Arial" font-size="20" font-weight="bold" fill="#212529">ユーザー詳細</text>
+  
+  <!-- フォームエリア -->
+  <rect x="40" y="130" width="620" height="420" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- ユーザーID -->
+  <text x="60" y="160" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">ユーザーID:</text>
+  <rect x="180" y="145" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="162" font-family="Arial" font-size="14" fill="#212529">user002</text>
+  
+  <!-- パスワード -->
+  <text x="60" y="200" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">パスワード:</text>
+  <rect x="180" y="185" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="202" font-family="Arial" font-size="14" fill="#212529">********</text>
+  <rect x="400" y="185" width="150" height="25" fill="#ffc107" stroke="none" rx="3" ry="3"/>
+  <text x="475" y="202" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">パスワードリセット</text>
+  
+  <!-- ユーザー名 -->
+  <text x="60" y="240" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">ユーザー名:</text>
+  <rect x="180" y="225" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="242" font-family="Arial" font-size="14" fill="#212529">鈴木 花子</text>
+  
+  <!-- メールアドレス -->
+  <text x="60" y="280" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">メールアドレス:</text>
+  <rect x="180" y="265" width="300" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="282" font-family="Arial" font-size="14" fill="#212529">suzuki@example.com</text>
+  
+  <!-- 部署 -->
+  <text x="60" y="320" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">部署:</text>
+  <rect x="180" y="305" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="322" font-family="Arial" font-size="14" fill="#212529">人事部</text>
+  <text x="360" y="322" font-family="Arial" font-size="12" fill="#212529">▼</text>
+  
+  <!-- ロール -->
+  <text x="60" y="360" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">ロール:</text>
+  <rect x="180" y="345" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="362" font-family="Arial" font-size="14" fill="#212529">管理者</text>
+  <text x="360" y="362" font-family="Arial" font-size="12" fill="#212529">▼</text>
+  
+  <!-- ステータス -->
+  <text x="60" y="400" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">ステータス:</text>
+  <rect x="180" y="385" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="402" font-family="Arial" font-size="14" fill="#212529">有効</text>
+  <text x="360" y="402" font-family="Arial" font-size="12" fill="#212529">▼</text>
+  
+  <!-- 電話番号 -->
+  <text x="60" y="440" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">電話番号:</text>
+  <rect x="180" y="425" width="200" height="25" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="442" font-family="Arial" font-size="14" fill="#212529">03-1234-5678</text>
+  
+  <!-- 備考 -->
+  <text x="60" y="480" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">備考:</text>
+  <rect x="180" y="465" width="300" height="70" fill="white" stroke="#ced4da" stroke-width="1" rx="3" ry="3"/>
+  <text x="190" y="482" font-family="Arial" font-size="14" fill="#212529">システム管理者権限を持つユーザー</text>
+  
+  <!-- 操作ボタンエリア -->
+  <rect x="40" y="560" width="620" height="30" fill="#ffffff" stroke="none" rx="3" ry="3"/>
+  <rect x="40" y="560" width="100" height="30" fill="#007bff" stroke="none" rx="3" ry="3"/>
+  <text x="90" y="580" font-family="Arial" font-size="14" text-anchor="middle" fill="white">保存</text>
+  
+  <rect x="150" y="560" width="100" height="30" fill="#6c757d" stroke="none" rx="3" ry="3"/>
+  <text x="200" y="580" font-family="Arial" font-size="14" text-anchor="middle" fill="white">キャンセル</text>
+  
+  <rect x="560" y="560" width="100" height="30" fill="#6c757d" stroke="none" rx="3" ry="3"/>
+  <text x="610" y="580" font-family="Arial" font-size="14" text-anchor="middle" fill="white">戻る</text>
+</svg>

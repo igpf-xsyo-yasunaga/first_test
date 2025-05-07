@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景と枠 -->
+  <rect x="10" y="10" width="680" height="480" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- ヘッダー部分 -->
+  <rect x="10" y="10" width="680" height="60" fill="#e9ecef" stroke="#dee2e6" stroke-width="1" rx="5" ry="5"/>
+  <text x="50" y="45" font-family="Arial" font-size="22" font-weight="bold" fill="#212529">Webアプリケーション</text>
+  
+  <!-- ユーザー情報部分 -->
+  <text x="550" y="35" font-family="Arial" font-size="14" text-anchor="end" fill="#6c757d">ユーザー: 山田 太郎</text>
+  <text x="550" y="55" font-family="Arial" font-size="12" text-anchor="end" fill="#6c757d">最終ログイン: 2025/04/26 15:30</text>
+  
+  <!-- ログアウトボタン -->
+  <rect x="580" y="25" width="100" height="30" fill="#6c757d" stroke="none" rx="3" ry="3"/>
+  <text x="630" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="white">ログアウト</text>
+  
+  <!-- サイドメニュー -->
+  <rect x="20" y="80" width="180" height="400" fill="white" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- メニュー項目 -->
+  <rect x="20" y="80" width="180" height="40" fill="#007bff" stroke="none"/>
+  <text x="110" y="105" font-family="Arial" font-size="16" text-anchor="middle" fill="white">ダッシュボード</text>
+  
+  <rect x="20" y="120" width="180" height="40" fill="white" stroke="none"/>
+  <text x="110" y="145" font-family="Arial" font-size="16" text-anchor="middle" fill="#212529">ユーザー管理</text>
+  
+  <rect x="20" y="160" width="180" height="40" fill="white" stroke="none"/>
+  <text x="110" y="185" font-family="Arial" font-size="16" text-anchor="middle" fill="#212529">データ登録</text>
+  
+  <rect x="20" y="200" width="180" height="40" fill="white" stroke="none"/>
+  <text x="110" y="225" font-family="Arial" font-size="16" text-anchor="middle" fill="#212529">レポート</text>
+  
+  <!-- メインコンテンツエリア -->
+  <rect x="210" y="80" width="480" height="400" fill="white" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- コンテンツタイトル -->
+  <text x="230" y="110" font-family="Arial" font-size="20" font-weight="bold" fill="#212529">ダッシュボード</text>
+  
+  <!-- お知らせセクション -->
+  <rect x="230" y="130" width="440" height="100" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  <text x="250" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="#212529">お知らせ</text>
+  <text x="250" y="180" font-family="Arial" font-size="14" fill="#212529">・システムメンテナンス予定 (2025/05/10 13:00-17:00)</text>
+  <text x="250" y="205" font-family="Arial" font-size="14" fill="#dc3545">・重要：セキュリティアップデートのお知らせ</text>
+  <text x="600" y="225" font-family="Arial" font-size="12" text-anchor="end" fill="#007bff" text-decoration="underline">全件表示 ></text>
+  
+  <!-- グラフエリア1 -->
+  <rect x="230" y="240" width="210" height="180" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  <text x="250" y="265" font-family="Arial" font-size="16" font-weight="bold" fill="#212529">月別データ登録数</text>
+  <!-- グラフ表現（棒グラフ） -->
+  <rect x="260" y="280" width="20" height="60" fill="#007bff" stroke="none"/>
+  <rect x="290" y="280" width="20" height="100" fill="#007bff" stroke="none"/>
+  <rect x="320" y="280" width="20" height="70" fill="#007bff" stroke="none"/>
+  <rect x="350" y="280" width="20" height="120" fill="#007bff" stroke="none"/>
+  <rect x="380" y="280" width="20" height="80" fill="#007bff" stroke="none"/>
+  
+  <!-- グラフエリア2 -->
+  <rect x="460" y="240" width="210" height="180" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="3" ry="3"/>
+  <text x="480" y="265" font-family="Arial" font-size="16" font-weight="bold" fill="#212529">カテゴリ別集計</text>
+  <!-- グラフ表現（円グラフ） -->
+  <circle cx="565" cy="350" r="70" fill="none" stroke="#dee2e6" stroke-width="1"/>
+  <path d="M565,350 L565,280 A70,70 0 0,1 626,328 z" fill="#007bff" stroke="none"/>
+  <path d="M565,350 L626,328 A70,70 0 0,1 575,419 z" fill="#28a745" stroke="none"/>
+  <path d="M565,350 L575,419 A70,70 0 0,1 496,375 z" fill="#ffc107" stroke="none"/>
+  <path d="M565,350 L496,375 A70,70 0 0,1 565,280 z" fill="#dc3545" stroke="none"/>
+  
+  <!-- フッター部分 -->
+  <text x="350" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">© 2025 Example Corporation</text>
+</svg>
